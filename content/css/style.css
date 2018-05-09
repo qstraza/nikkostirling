@@ -627,7 +627,7 @@ header {
 	border-bottom: 1px solid #f0f0f0;
 }
 
-.home-about h3, .home-features h3, .home-blog h3, .home-quotes h3, .home-vtabs h3, .home-experience h3, .home-skills h3, .home-appinfo h3, .home-shop h3, .home-lookbook h3, 
+.home-about h3, .home-Funkcije h3, .home-blog h3, .home-quotes h3, .home-vtabs h3, .home-experience h3, .home-skills h3, .home-appinfo h3, .home-shop h3, .home-lookbook h3, 
 .hf-menu h3, .team h3, .client2 h3, .about-process h3, .faq-content h3, .shortcode-forms h3, .shortcode-tabs h3, .KONTAKT-content2 h3,
 .blog-single-comments h3, .blog-single-form h3, #portfolio-feed h3, .news-feed2 h3, #blog-content2 h3, .home-feature2 h3, .checkout-content h3 {
 	border-bottom: 1px solid #e0e0e0;
@@ -639,12 +639,12 @@ header {
 
 /* 5. Services Styles */
 
-.home-features {
+.home-Funkcije {
 	padding: 90px 0 30px;
 	border-bottom: 1px solid #f0f0f0;
 }
 
-.home-features i {
+.home-Funkcije i {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -659,7 +659,7 @@ header {
 	z-index:77;
 }
 
-.home-features i:before {
+.home-Funkcije i:before {
 	width:100%;
 	height:100%;
 	top:0;
@@ -670,7 +670,7 @@ header {
 	transition:.4s;
 }
 
-.home-features .col-md-6:hover i:before {
+.home-Funkcije .col-md-6:hover i:before {
 	background:#d7d7d7;
 	width:90%;
 	height:90%;
@@ -680,18 +680,18 @@ header {
 	line-height:89px;
 }
 
-.home-features .col-md-6:hover i {
+.home-Funkcije .col-md-6:hover i {
 	color:#fff;
 	transition:.4s;
 }
 
-.home-features h4 {
+.home-Funkcije h4 {
 	font-size: 14px;
 	text-transform: uppercase;
 	margin: 22px 0 20px;
 }
 
-.home-features .col-md-6 {
+.home-Funkcije .col-md-6 {
 	margin-bottom: 36px;
 }
 
@@ -8108,12 +8108,12 @@ transform:rotate(360deg);
 	padding: 90px 0 60px;
 }
 
-.features-right ul , .features-left ul {
+.Funkcije-right ul , .Funkcije-left ul {
 	padding: 0;
 	margin: 0;
 }
 
-.features-right ul li , .features-left ul li {
+.Funkcije-right ul li , .Funkcije-left ul li {
 	list-style: none;
 	display: table;
 	width: 100%;
@@ -8121,7 +8121,7 @@ transform:rotate(360deg);
 	cursor:pointer;
 }
 
-.features-right ul li i, .features-left ul li i  {
+.Funkcije-right ul li i, .Funkcije-left ul li i  {
 	font-size: 30px;
 	color: #081f29;
 	border: solid 1px #86b934;
@@ -8135,8 +8135,8 @@ transform:rotate(360deg);
 	position:relative;
 }
 
-.features-right li i:before ,
-.features-left li i:before {
+.Funkcije-right li i:before ,
+.Funkcije-left li i:before {
 	width:100%;
 	height:100%;
 	top:0;
@@ -8147,8 +8147,8 @@ transform:rotate(360deg);
 	transition:.4s;
 }
 
-.features-right li:hover i:before ,
-.features-left li:hover i:before {
+.Funkcije-right li:hover i:before ,
+.Funkcije-left li:hover i:before {
 	background:#86b934;
 	width:90%;
 	height:90%;
@@ -8159,7 +8159,7 @@ transform:rotate(360deg);
 	color:#fff;
 }
 
-.features-right .fr-content {
+.Funkcije-right .fr-content {
 	margin-left: 140px;
 }
 
@@ -8173,7 +8173,7 @@ transform:rotate(360deg);
 	margin: 0;
 }
 
-.features-left ul li i {
+.Funkcije-left ul li i {
 	font-size: 30px;
 	color: #081f29;
 	border: solid 1px #86b934;
@@ -8186,7 +8186,7 @@ transform:rotate(360deg);
 	float: right;
 }
 
-.features-left .fl-content {
+.Funkcije-left .fl-content {
 	margin-right: 140px;
 }
 
@@ -8589,7 +8589,7 @@ transform:rotate(360deg);
 
 .home-services.shortcode-content, 
 .home-services2.shortcode-content, 
-.home-features.shortcode-content,
+.home-Funkcije.shortcode-content,
 .lookbook-wrap.shortcode-content,
 .home-lookbook.shortcode-content {
 	padding-bottom: 0;
