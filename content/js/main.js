@@ -435,7 +435,7 @@ jQuery(document).ready(function($) {
         dots: true,
         dotsClass: 'custom_paging',
         customPaging: function(slider, i) {
-            //FYI just have a look at the object to find aviable information
+            //FYI just have a look at the object to find aviable INFORMACIJE
             //press f12 to access the console
             //you could also debug or look in the source
             console.log(slider);

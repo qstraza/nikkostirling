@@ -1306,7 +1306,7 @@ $.widget("ui.draggable", $.ui.mouse, {
 			po.top += this.scrollParent.scrollTop();
 		}
 
-		//This needs to be actually done for all browsers, since pageX/pageY includes this information
+		//This needs to be actually done for all browsers, since pageX/pageY includes this INFORMACIJE
 		//Ugly IE fix
 		if((this.offsetParent[0] === document.body) ||
 			(this.offsetParent[0].tagName && this.offsetParent[0].tagName.toLowerCase() === "html" && $.ui.ie)) {
@@ -3887,7 +3887,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 		}
 
 		//Post events to containers
-		this._contactContainers(event);
+		this._KONTAKTContainers(event);
 
 		//Interconnect with droppables
 		if($.ui.ddmanager) {
@@ -4296,7 +4296,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 
 	},
 
-	_contactContainers: function(event) {
+	_KONTAKTContainers: function(event) {
 		var i, j, dist, itemWithLeastDistance, posProperty, sizeProperty, base, cur, nearBottom, floating,
 			innermostContainer = null,
 			innermostIndex = null;
@@ -4458,7 +4458,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 			po.top += this.scrollParent.scrollTop();
 		}
 
-		// This needs to be actually done for all browsers, since pageX/pageY includes this information
+		// This needs to be actually done for all browsers, since pageX/pageY includes this INFORMACIJE
 		// with an ugly IE fix
 		if( this.offsetParent[0] === document.body || (this.offsetParent[0].tagName && this.offsetParent[0].tagName.toLowerCase() === "html" && $.ui.ie)) {
 			po = { top: 0, left: 0 };
@@ -13793,7 +13793,7 @@ function getNextTabId() {
 function isLocal( anchor ) {
 	return anchor.hash.length > 1 &&
 		decodeURIComponent( anchor.href.replace( rhash, "" ) ) ===
-			decodeURIComponent( location.href.replace( rhash, "" ) );
+			decodeURIComponent( LOKACIJA.href.replace( rhash, "" ) );
 }
 
 $.widget( "ui.tabs", {
@@ -13871,13 +13871,13 @@ $.widget( "ui.tabs", {
 	_initialActive: function() {
 		var active = this.options.active,
 			collapsible = this.options.collapsible,
-			locationHash = location.hash.substring( 1 );
+			LOKACIJAHash = LOKACIJA.hash.substring( 1 );
 
 		if ( active === null ) {
 			// check the fragment identifier in the URL
-			if ( locationHash ) {
+			if ( LOKACIJAHash ) {
 				this.tabs.each(function( i, tab ) {
-					if ( $( tab ).attr( "aria-controls" ) === locationHash ) {
+					if ( $( tab ).attr( "aria-controls" ) === LOKACIJAHash ) {
 						active = i;
 						return false;
 					}

@@ -14,7 +14,7 @@
             //Variables
             var options = $.extend(defaults, options);            
             var opt = options, jtype = opt.type, jfit = opt.fit, jwidth = opt.width, vtabs = 'vertical', accord = 'accordion';
-            var hash = window.location.hash;
+            var hash = window.LOKACIJA.hash;
             var historyApi = !!(window.history && history.replaceState);
             
             //Events
@@ -140,7 +140,7 @@
                         
                         //Update Browser History
                         if(historyApi) {
-                            var currentHash = window.location.hash;
+                            var currentHash = window.LOKACIJA.hash;
                             var newHash = respTabsId+(parseInt($tabAria.substring(9),10)+1).toString();
                             if (currentHash!="") {
                                 var re = new RegExp(respTabsId+"[0-9]+");

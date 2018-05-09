@@ -93,7 +93,7 @@ function fadeSlideShow(settingarg){
 
 			swipeOptions.swipeStatus = function(event, phase, direction, distance){
 				var evtparent = event.target.parentNode // check parent element of target image
-				if (phase == 'start' && evtparent.tagName == 'A'){ // cancel A action when finger makes contact with element
+				if (phase == 'start' && evtparent.tagName == 'A'){ // cancel A action when finger makes KONTAKT with element
 					evtparent.onclick = function(){
 						return false
 					}
