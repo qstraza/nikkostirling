@@ -3887,7 +3887,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 		}
 
 		//Post events to containers
-		this._KONTAKTContainers(event);
+		this._CONTACTContainers(event);
 
 		//Interconnect with droppables
 		if($.ui.ddmanager) {
@@ -4296,7 +4296,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 
 	},
 
-	_KONTAKTContainers: function(event) {
+	_CONTACTContainers: function(event) {
 		var i, j, dist, itemWithLeastDistance, posProperty, sizeProperty, base, cur, nearBottom, floating,
 			innermostContainer = null,
 			innermostIndex = null;
