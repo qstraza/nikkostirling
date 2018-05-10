@@ -13,7 +13,7 @@ $.ui = $.ui || {};
 $.extend( $.ui, {
 	version: "1.10.3",
 
-	keyCode: {
+	keyKoda: {
 		BACKSPACE: 8,
 		COMMA: 188,
 		DELETE: 46,
