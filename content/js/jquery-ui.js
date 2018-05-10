@@ -1306,7 +1306,7 @@ $.widget("ui.draggable", $.ui.mouse, {
 			po.top += this.scrollParent.scrollTop();
 		}
 
-		//This needs to be actually done for all browsers, since pageX/pageY includes this INFORMACIJE
+		//This needs to be actually done for all browsers, since pageX/pageY includes this information
 		//Ugly IE fix
 		if((this.offsetParent[0] === document.body) ||
 			(this.offsetParent[0].tagName && this.offsetParent[0].tagName.toLowerCase() === "html" && $.ui.ie)) {
@@ -4458,7 +4458,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 			po.top += this.scrollParent.scrollTop();
 		}
 
-		// This needs to be actually done for all browsers, since pageX/pageY includes this INFORMACIJE
+		// This needs to be actually done for all browsers, since pageX/pageY includes this information
 		// with an ugly IE fix
 		if( this.offsetParent[0] === document.body || (this.offsetParent[0].tagName && this.offsetParent[0].tagName.toLowerCase() === "html" && $.ui.ie)) {
 			po = { top: 0, left: 0 };
@@ -13793,7 +13793,7 @@ function getNextTabId() {
 function isLocal( anchor ) {
 	return anchor.hash.length > 1 &&
 		decodeURIComponent( anchor.href.replace( rhash, "" ) ) ===
-			decodeURIComponent( LOKACIJA.href.replace( rhash, "" ) );
+			decodeURIComponent( location.href.replace( rhash, "" ) );
 }
 
 $.widget( "ui.tabs", {
@@ -13871,13 +13871,13 @@ $.widget( "ui.tabs", {
 	_initialActive: function() {
 		var active = this.options.active,
 			collapsible = this.options.collapsible,
-			LOKACIJAHash = LOKACIJA.hash.substring( 1 );
+			locationHash = location.hash.substring( 1 );
 
 		if ( active === null ) {
 			// check the fragment identifier in the URL
-			if ( LOKACIJAHash ) {
+			if ( locationHash ) {
 				this.tabs.each(function( i, tab ) {
-					if ( $( tab ).attr( "aria-controls" ) === LOKACIJAHash ) {
+					if ( $( tab ).attr( "aria-controls" ) === locationHash ) {
 						active = i;
 						return false;
 					}

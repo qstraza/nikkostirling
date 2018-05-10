@@ -98,7 +98,7 @@ display:none;
     height: 280px;
 }
 
-.home-about h3, .home-Funkcije h3, .home-blog h3, .home-quotes h3, .home-vtabs h3, .home-experience h3, .home-skills h3, .home-appinfo h3, .home-shop h3, .home-lookbook h3, .hf-menu h3, .team h3, .client2 h3, .about-process h3, .faq-content h3, .shortcode-forms h3, .shortcode-tabs h3, .CONTACT-content2 h3, .blog-single-comments h3, .blog-single-form h3, #portfolio-feed h3, .news-feed2 h3, #blog-content2 h3, .home-feature2 h3, .checkout-content h3 ,
+.home-about h3, .home-features h3, .home-blog h3, .home-quotes h3, .home-vtabs h3, .home-experience h3, .home-skills h3, .home-appinfo h3, .home-shop h3, .home-lookbook h3, .hf-menu h3, .team h3, .client2 h3, .about-process h3, .faq-content h3, .shortcode-forms h3, .shortcode-tabs h3, .CONTACT-content2 h3, .blog-single-comments h3, .blog-single-form h3, #portfolio-feed h3, .news-feed2 h3, #blog-content2 h3, .home-feature2 h3, .checkout-content h3 ,
 .portfolio-feed h3 {
 
     font-size: 17px !important;
@@ -642,11 +642,11 @@ header .col-md-10 {
 	padding-right: 25px !important;
 }
 
-.home-Funkcije i {
+.home-features i {
 	margin: 0 auto;
 }
 
-.home-Funkcije h4, .home-Funkcije p {
+.home-features h4, .home-features p {
 	text-align: center;
 }
 
@@ -1412,8 +1412,8 @@ header .row .row {
 	padding: 0 !important;
 }
 
-.Funkcije-left ul li i ,
-.Funkcije-right ul li i {
+.features-left ul li i ,
+.features-right ul li i {
 	float: none;
 	margin: 0 auto 30px;
 }
